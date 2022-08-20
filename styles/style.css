@@ -79,6 +79,10 @@ li {
 
 /* section1 */
 
+.section1 {
+    margin-bottom: 40px;
+}
+
 .benefit-wrapper {
     display: flex;
     flex-direction: column;
@@ -91,19 +95,24 @@ li {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    width: 75%;
 }
 
 .box-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 10px;
 }
 
 .box-image img {
     width: 100px;
     height: 100px;
+}
+
+.box-text {
+    text-align: center;
 }
 
 .color-h3 {
